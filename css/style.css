@@ -1,0 +1,38 @@
+/*<section id="game">
+  <div id="cards">
+    <div class="card">
+      <div class="face front"></div>
+      <div class="face back cardAK"></div>
+    </div> <!-- .card -->
+    <div class="card">
+      <div class="face front"></div>
+      <div class="face back cardAQ"></div>
+    </div> <!-- .card -->
+  </div> <!-- #cards -->
+</section> <!-- #game -->
+/*<script src="js/jquery-1.6.min.js"></script>*/
+/*copy in script above if used.*/
+/*possible logic for flipping cards with two images in Css.*/
+
+img {
+  background-size: auto;
+  text-align: center;
+}
+
+body {
+  text-align: center;
+
+}
+
+ol {
+list-style: none;
+width:500px;
+margin:auto;
+}
+
+ol li {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+}
