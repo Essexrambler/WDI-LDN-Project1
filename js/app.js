@@ -1,5 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
   console.log('JS loaded');
+  $('document').ready(function(){
+});
+
 
 //
 // var clicks = 0; //Counts how many cards pciked in turn
@@ -10,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
 // var backCard = "image.png";
 
   var cards = document.querySelectorAll(".card");
+  var playerScore =
 
   for(var i=0;i<cards.length;i++) {
     cards[i].addEventListener('click', function() {
@@ -20,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
         break;
       }
 
-      this.style.backgroundImage = image;
+      this.style.backgroundImage = image1;
     });
   }
 
@@ -219,51 +223,112 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 });
 
+//Shuffle function array made with card indices as images attached to each card id
+//should flip cardS and shuffle images under each card to enable game restart.
+var cardList = [
+    {
+      name: 'card_1'
+      id: 1
+    },
+    {
+      name: 'card_2'
+      id: 2
+    },
+    {
+      name: 'card_3'
+      id: 3
+    },
+      name: 'card_4'
+      id: 4
+    },
+      name: 'card_5'
+      id: 5
+    },
+      name: 'card6'
+      id: 6
+    },
+     name: 'card_7'
+     id: 7
+    },
+      name: 'card_8'
+      id: 8
+    },
+      name: 'card_9'
+      id: 9
+    },
+      name: 'card_10'
+      id: 10
+    },
+      name: 'card_11'
+      id: 11
+    },
+      name: 'card_12'
+      id: 12
+    },
+     name: 'card_13'
+     id: 13
+   },
+    name: 'card_14'
+    id: 14
+  },
+    name: 'card_15'
+    id: 15
+  },
+    name: 'card_16'
+    id: 16
+  },
+],
 
+card = [],
+card id =[],
+cardsFlipped = 0,
+appendToBoard = document.getElementById('cardTable');
 
-  // document.getElementById('card1').onclick = function() {
-  //     document.getElementById('card1').style.backgroundImage = "images/bigredbus.jpg";
-  // };
-  //
-  //   var cardTwo = document.getElementById('card2').onclick = function() {
-  //
-  //     document.getElementById('card2').style.backgroundImage = "images/bridgeonfire.jpg";
-  //
-  //   };
-  //
-  //   var cardThree = document.getElementById('card3').onclick = function() {
-  //
-  //     document.getElementById('card3').style.backgroundImage = "images/switchhouse.jpg";
-  //
-  //   };
-  //
-  //   var cardFour = document.getElementById('card4').onclick = function() {
-  //
-  //     document.getElementById('card4').style.backgroundImage = "images/stpauls.jpg";
-  //
-  //   };
-  //
-  //   var cardOne = document.getElementById('card5').onclick = function() {
-  //
-  //       document.getElementById('card5').style.backgroundImage = "images/shard.jpg";
-  //
-  //     };
-  //
-  //     var cardOne = document.getElementById('card6').onclick = function() {
-  //
-  //         document.getElementById('card6').style.backgroundImage = "images/blackfriarsbridge.jpg";
-  //
-  //       };
-  //     });
+function shuffle(array) {
+  var currentIndex = array.length,
+  temporaryValue,
+  randomIndex;
 
-        // var cardOne = document.getElementById('card1').onclick = function() {
-        //
-        //     document.getElementById('card1').style.backgroundImage = "images/bigredbus.jpg";
-        //
-        //   };
-        //
-        //   var cardOne = document.getElementById('card1').onclick = function() {
-        //
-        //       document.getElementById('card1').innerHTML = '<img src="images/bigredbus.jpg">'
-        //
-        //     };
+  while (0 !== currentIndex) {
+
+   randomIndex = Math.floor(Math.random() * currentIndex);
+   currentIndex -= 1;
+
+   temporaryValue = array[currentIndex];
+   array[currentIndex] = array[randomIndex];
+   array[randomIndex] = temporaryValue;
+
+ }
+  return  array;
+}
+ function createCardDeck() {
+   shuffle(cardlist);
+   var card= '';
+   for(var i = 0 ; i< cardList.length; i++){
+     card += '<span class="card" id"${cardList[i].id}">
+                        <img class="card_back" url=card-back-"http://i.imgur.com/PhbibAE.jpg"
+                        alt="Union jack card back"/>
+                        <img class="card_front inner-img"
+  src="asset/${cardList[i].name}.jpg />
+  </span>
+ }
+    appendToBoard.innerHtml = card;
+}
+
+  document.getElementById('btnReset').addEventListener('click',function(e) {
+    event.preventDefault();
+    createCardDeck();
+  }, true);
+
+  function flipCard() {
+    var card = document.querySelectorAll('.card');
+
+    for( var i=0; i < card.length; i++) {
+      card[i].addEventListener('mousedown', function(e) {
+        event.currentTarget.classList.toggle('flipped');
+        return false;
+      });
+    }
+  }
+
+  createCardDeck();

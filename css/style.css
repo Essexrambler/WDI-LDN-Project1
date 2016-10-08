@@ -26,7 +26,9 @@ body {
 h1 {
   font-style: italic;
   font-family: sans-serif;
-  color: red;
+  color:#ff3300;
+  padding-left: 30px;
+
 }
 
 h2 {
@@ -57,15 +59,13 @@ ol li {
    max-width: 100%;
  }
 
-button1 {
+button {
   color: red;
   border-radius: 25px;
   text-align: center;
   height: 20px;
   position: absolute;
+  border-style: double;
+  margin: auto;
 
-}
-
-. {
-  text-align: right;
 }
