@@ -63,9 +63,10 @@ button {
   color: red;
   border-radius: 25px;
   text-align: center;
-  height: 20px;
-  position: absolute;
+  height: 30px;
+  /*position: absolute;*/
   border-style: double;
   margin: auto;
+
 
 }
