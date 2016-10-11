@@ -18,7 +18,7 @@
 
 body {
   text-align: center;
-  background-image: url(https://ichef.bbci.co.uk/images/ic/1200x675/p01tgszy.jpg);
+  background-image: url(http://i.imgur.com/UOUUFLd.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -28,13 +28,15 @@ h1 {
   font-family:cursive bold;
   color:#668cff;
   padding-left: 30px;
-
+  text-shadow: rgba(0,0,0, 1) 0px 0px 10px;
 }
 
 h2 {
   font-style: italic;
   font-family: cursive bold;
   color:#ff3300;
+  text-shadow: rgba(0,0,0, 1) 0px 0px 10px;
+  padding-left: 30px;
 }
 
 ol {
@@ -68,6 +70,8 @@ button {
   /*position: absolute;*/
   border-style: double;
   margin: auto;
+  padding-right: 10px;
+  margin-left: 35px
 
 
 }
@@ -78,8 +82,15 @@ button {
 
 #clicks {
   color:#ff3300;
-  border: 5px solid #668cff;
   text-align: center;
   background-position: center;
   margin:inherit;
+  text-shadow: rgba(0,0,0, 1) 0px 0px 10px;
+}
+
+a {
+  float: right;
+  color:#ff3300;
+  text-shadow: rgba(0,0,0, 1) 0px 0px 10px;
+  text-decoration: none;
 }
