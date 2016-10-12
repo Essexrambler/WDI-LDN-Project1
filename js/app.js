@@ -36,8 +36,8 @@ function gamePlay(){
       console.log(moves);
       console.log(clickedElements);
       var image;
-      switch(this.id) {
-        case 'card1':
+      switch(this.id) {                                     //managed to refract the image switch by coupling
+        case 'card1':                                      //the pairs with equal images.
         case 'card9':
         image = "url('images/Archive/bigredbus.jpg')";
         break;
@@ -106,7 +106,8 @@ function checkWin () {                                 //Win function, checking 
   }
 
   // Shuffle function array made with card indices as images attached to each card id
-  // should flip cardS and shuffle images under each card to enable game restart.
+  // should flip cardS and shuffle images under each card to enable game restart with
+  //card in different positions to enable game functionality.
 
   function shuffle(array) {
     var currentIndex = array.length,

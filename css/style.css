@@ -1,21 +1,3 @@
-/*<section id="game">
-  <div id="cards">
-    <div class="card">
-      <div class="face front"></div>
-      <div class="face back cardAK"></div>
-    </div> <!-- .card -->
-    <div class="card">
-      <div class="face front"></div>
-      <div class="face back cardAQ"></div>
-    </div> <!-- .card -->
-  </div> <!-- #cards -->
-</section> <!-- #game -->
-/*<script src="js/jquery-1.6.min.js"></script>*/
-/*copy in script above if used.*/
-/*possible logic for flipping cards with two images in Css.*/
-
-
-
 body {
   text-align: center;
   background-image: url(http://i.imgur.com/UOUUFLd.jpg);
@@ -64,6 +46,7 @@ ol li {
   background-size: cover;
   background-position: center;
   margin: 5px;
+  border-radius: 15px;
 
 }
  ol li img {
@@ -96,6 +79,9 @@ button {
   text-shadow: rgba(0,0,0, 1) 0px 0px 10px;
   margin-left: 30px;
   height: 50px;
+  padding: 20px 10px;
+  font-size: 50px;
+  font-family: cursive bold;
 }
 
 a {
