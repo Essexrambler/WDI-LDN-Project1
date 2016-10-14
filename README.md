@@ -8,7 +8,7 @@ First project on WDI London course week 2.
 ###Installation Instructions.
 
 Game is hosted on Heroku at this url:
-https://git.heroku.com/desolate-mountain-49112.git
+http://desolate-mountain-49112.herokuapp.com
 An imaged based Memory game aimed at London landmarks, with my own Photographs incorporated into the board.
 
 HTML CSS JAVASCRIPT
