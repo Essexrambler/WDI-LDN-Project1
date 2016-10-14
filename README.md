@@ -11,10 +11,10 @@ Game is hosted on Heroku, take the challenge [here] (http://desolate-mountain-49
 An imaged based Memory game aimed at London landmarks, with my own Photographs incorporated into the board.
 
 ##Tools uses##
-*HTML 
-*CSS 
-*JAVASCRIPT
-*GITHUB
+*HTML* 
+*CSS* 
+*JAVASCRIPT*
+*GITHUB*
 
 ##Planning:
 
