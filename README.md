@@ -9,7 +9,7 @@ Project 1: GA WDI 2016/ Luke Reynolds.
 Game is hosted on Heroku, take the challenge [here] (http://desolate-mountain-49112.herokuapp.com)
 An imaged based Memory game aimed at London landmarks, with my own Photographs incorporated into the board.
 
-![LondonMemoryGamePreview](../images/memorygame.png)
+![LondonMemoryGamePreview](memorygame.png)
 
 ###Controls###
 Your brain power.
