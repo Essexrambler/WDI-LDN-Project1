@@ -15,7 +15,7 @@ An imaged based Memory game aimed at London landmarks, with my own Photographs i
 ###Controls###
 Your brain power.
 
-##Tools used##
+###Tools used##
 *HTML* 
 
 *CSS* 
