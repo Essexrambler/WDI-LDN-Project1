@@ -3,14 +3,16 @@ Project 1: GA WDI 2016/ Luke Reynolds.
 
 #London Landmarks Memory Game.#
 
-##First Project - Photographs Based, Fun brain training game.
+##First Project - Photographs Based, Fun brain training game.##
 
-###Installation Instructions.
-
+###Overview###
 Game is hosted on Heroku, take the challenge [here] (http://desolate-mountain-49112.herokuapp.com)
 An imaged based Memory game aimed at London landmarks, with my own Photographs incorporated into the board.
 
-##Tools uses##
+###controls###
+Your brain power.
+
+##Tools used##
 *HTML* 
 
 *CSS* 
