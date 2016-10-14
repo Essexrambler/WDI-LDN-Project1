@@ -12,8 +12,11 @@ An imaged based Memory game aimed at London landmarks, with my own Photographs i
 
 ##Tools uses##
 *HTML* 
+
 *CSS* 
+
 *JAVASCRIPT*
+
 *GITHUB*
 
 ##Planning:
