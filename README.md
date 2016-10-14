@@ -11,7 +11,11 @@ Game is hosted on Heroku at this url:
 http://desolate-mountain-49112.herokuapp.com
 An imaged based Memory game aimed at London landmarks, with my own Photographs incorporated into the board.
 
-HTML CSS JAVASCRIPT
+##Tools uses##
+*HTML 
+*CSS 
+*JAVASCRIPT
+*GITHUB
 
 ##Planning:
 
