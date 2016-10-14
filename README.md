@@ -1,14 +1,13 @@
 # WDI-LDN-Project1
-First project on WDI London course week 2.
+Project 1: GA WDI 2016/ Luke Reynolds.
 
 #London Landmarks Memory Game.#
 
-##First Project - based on creating a small game.
+##First Project - Photographs Based, Fun brain training game.
 
 ###Installation Instructions.
 
-Game is hosted on Heroku at this url:
-http://desolate-mountain-49112.herokuapp.com
+Game is hosted on Heroku, take the challenge [here] (http://desolate-mountain-49112.herokuapp.com)
 An imaged based Memory game aimed at London landmarks, with my own Photographs incorporated into the board.
 
 ##Tools uses##
@@ -25,7 +24,7 @@ I then started to mock up my idea using Trello and the tools kit, showing imager
 ###Methodology:
 I set out on Lunchtime of day one, with the above plan, and by the evening of day one had a solid plan of the process and how I was going to implement the idea.
 
-I layed down some basic Logic and knew in my head how the win function and basis of the game would work, in my mind this was the easy part of the process, but still key to get some solid planning and logic in place to follow and remind myself of the path I needed to stick to throughout the 4 days. (psuedo code)
+I layed down some basic Logic and knew in my head how the win function and basis of the game would work, in my mind this was the easy part of the process, but still key to get some solid planning and logic in place to follow, and remind myself of the path I needed to stick to throughout the 4 days. (psuedo code)
 
 ###Process
 After setting up out Heroku and hosting platforms for the first project, I set out my **HTML, CSS AND APP/JS** platforms ready for coding to begin.
